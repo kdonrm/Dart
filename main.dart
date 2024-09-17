@@ -1,13 +1,25 @@
 void main() {
-  int x = 2 + 3;
-  print(x);
+  int b = 10;
+  //int k = b++;
+  //print(k);
+  //print(k.runtimeType);
 
-  int y = 100 - 50;
+  //increment
+  b = b + 1;
+  print(b);
+
+  //prefix increment
+  print(++b);
+
+  //prefix decrement
+  print(--b);
+
+  //postfix increment
+  int y = 20;
+
+  print(y++);
+
+  print(y++);
+
   print(y);
-
-  int z = 2 * 10;
-  print(z);
-
-  double m = 100 / 5;
-  print(m);
 }
