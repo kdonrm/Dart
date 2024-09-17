@@ -1,6 +1,4 @@
-import 'dart:ffi';
-
-void main(){
+void main() {
   int x = 2 + 3;
   print(x);
 
@@ -10,7 +8,6 @@ void main(){
   int z = 2 * 10;
   print(z);
 
-  double m = 100/5;
+  double m = 100 / 5;
   print(m);
-
 }
